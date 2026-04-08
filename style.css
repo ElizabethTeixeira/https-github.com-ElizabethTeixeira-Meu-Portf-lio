@@ -1,0 +1,166 @@
+*/* ESTILOS GERAIS */ 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+/* DARK MODE */
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SOBRE */
+#sobre{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+img{
+    width: 120px; 
+    border-radius: 10%;
+}
+
+#img-perfil{
+    width: 150px;
+    border-radius:60%;
+}
+
+/* TECNOLOGIAS */
+.logos {
+    display: flex;
+    justify-content: space-around;
+    gap: 85px;
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.logos img {
+    width: 90px;
+}
+
+/* GRID PROJETOS */
+#grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 30px;
+}
+   
+/* CARD */
+.card {
+    background: #fffdfd;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    scroll-behavior: smooth;    
+}
+
+.card img {
+    width: 40%;
+    border-radius: 10px;
+    
+}
+
+body.dark .card {
+    background: #1e1e1e;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left:300px;
+    padding-right:300px;
+}
+
+input, textarea {
+    padding: 8px;
+}
+
+/* ANIMAÇÃO */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade 1s forwards;
+}
+@keyframes fade {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#infor{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 850px)
+{
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+{
+    nav {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 1100px) {
+    body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #img-perfil{
+        width: 100px;
+        height: 100px
+    }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Elizabeth Teixeira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Elizabeth Teixeira</h1>
+
+        <div>
+            <button id="toggle-dark">🌙</button>
+        </div>
+        <nav id="menu">
+            <a href="#sobre">Sobre mim</a>
+            <a href="#projetos">Projetos</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre"> 
+            <div id="infor">
+                <img id="img-perfil" src="foto portifolio.jpg" alt="Foto de Elizabeth Teixeira">
+                <h2>Sobre Mim</h2>   
+                <p>
+                    Sou acadêmica de Sistemas para Internet na UESPI - Universidade Estadual do Piauí. Este site tem como objetivo ser um espaço de estudo e também uma apresentação sobre mim, com informações e experiências relacionadas à minha trajetória.
+                </p>
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologias</h2>
+            <p>Neste projeto foram utilizadas as seguintes tecnologias:</p>
+            <div class="logos">
+                 <img src="imagens/logo-html.png" alt="Logo HTML">
+                <img src="imagens/logo-css.png" alt="Logo CSS">
+                <img src="imagens/logo-javascript.png" alt="Logo JavaScript">
+            </div>
+        </section>
+        
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div id="grid-projetos"></div>
+        </section>  
+
+        <section id="contato">
+        <h2>Contato</h2>
+
+            <form id="form-contato">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+        <p id="msg-sucesso"></p>
+        </section> 
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por Elizabeth Teixeira</p>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
