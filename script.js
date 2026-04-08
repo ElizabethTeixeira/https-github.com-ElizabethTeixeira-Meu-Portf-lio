@@ -8,11 +8,12 @@ btnDark.addEventListener("click", () => {
 // PROJETOS 
 let projetos = [
     {
-        nomeProjeto : "Meu Portifólio",
-        imgProjeto : "https://www.pngarts.com/files/3/Computer-Technology-PNG-Image-with-Transparent-Background.png"
+        nomeProjeto : "Meu Portfólio",
+        imgProjeto : "https://www.pngarts.com/files/3/Computer-Technology-PNG-Image-with-Transparent-Background.png",
+        link: "https://github.com/ElizabethTeixeira/https-github.com-ElizabethTeixeira-Meu-Portf-lio/"
     },
     {
-        nomeProjeto : "Projeto E-commerce",
+        nomeProjeto : "Meu Portfólio - REACT",
         imgProjeto : "https://freepngimg.com/thumb/software/27297-3-software-transparent-image.png"
     }
 ];
@@ -26,15 +27,19 @@ projetos.forEach((e) => {
 
     let titulo = document.createElement("h3");
     titulo.textContent = e.nomeProjeto;
+    let btn = document.createElement("buttom");
+    btn.textContent = "Ver GitHub";
+    btn.link = e.link;
 
     let img = document.createElement("img");
     img.src = e.imgProjeto;
 
     card.appendChild(img);
     card.appendChild(titulo);
+    card.appendChild(btn);
 
     container.appendChild(card);
-    
+
 });
 
 // FORMULÁRIO
