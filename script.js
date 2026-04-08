@@ -27,9 +27,9 @@ projetos.forEach((e) => {
 
     let titulo = document.createElement("h3");
     titulo.textContent = e.nomeProjeto;
-    let btn = document.createElement("buttom");
+    let btn = document.createElement("a");
     btn.textContent = "Ver GitHub";
-    btn.link = e.link;
+    btn.href = e.link;
 
     let img = document.createElement("img");
     img.src = e.imgProjeto;
