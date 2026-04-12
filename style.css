@@ -1,5 +1,5 @@
 */* ESTILOS GERAIS */ 
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 :root {
-  -primary-color: #2563eb;
+    --primary-color: #2563eb;
     --dark-color: #0f172a;
     --light-bg: #f1f5f9;
     --white: #ffffff;
@@ -201,15 +201,14 @@ footer{
     margin-top: 60px;
 }
 
-/* RESPONSIVIDADE */
+/* RESPONSIVE DESIGN */
 @media (max-width: 768px)
 {
     header {
         flex-direction: column;
         gap: 15px;
     }
-}
-{
+
     nav {
         gap: 15px;
     }
