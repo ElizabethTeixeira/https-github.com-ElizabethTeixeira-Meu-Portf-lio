@@ -40,9 +40,10 @@ Estou em constante evolução, aplicando inovação e visão estratégica para t
 
 ## 📊 Projetos  
 
-🔹 Site imobiliário com foco em conversão  
-🔹 Estratégias digitais para captação de leads  
-🔹 Aplicação de tecnologia no funil de vendas  
+🔹 Meu Portfólio
+<a href="https://elizabethteixeira.github.io/ElizabethTeixeira-Portf-lio/"> 
+
+🔹 Meu Portfólio - REACT  
 
 🚧 *Em constante desenvolvimento...*  
 
