@@ -52,15 +52,11 @@ Estou em constante evolução, aplicando inovação e visão estratégica para t
 ## 🤝 Conecte-se comigo  
 
 <p>
-  <a href="SEU_LINK_LINKEDIN">
+  <a href="teste Linkedin">
     <img src="https://img.shields.io/badge/LinkedIn-Elizabeth%20Teixeira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   
-  <a href="mailto:SEU_EMAIL">
-    <img src="https://img.shields.io/badge/E--mail-Contato-red?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  
-  <a href="SEU_INSTAGRAM">
+  <a href="Elizabeth Instagram">
     <img src="https://img.shields.io/badge/Instagram-@seuuser-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
 </p>
